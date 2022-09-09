@@ -1,0 +1,16 @@
+form{
+    background-color: rgb(212, 213, 215);
+    border: 5px solid rgb(176, 165, 165);
+    position: absolute;
+    font-size:larger;
+     }
+
+     body{
+        background-color: aliceblue;
+        padding: 100px 100px;
+
+     }
+     h1{
+        font-style: italic;
+
+     }

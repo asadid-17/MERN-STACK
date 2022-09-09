@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWORK</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+     <style>
+    
+        *{
+            font-family: kanit;
+
+        }
+        body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .mycard{
+            border: 3px solid #099cc3;
+            /* margin: auto; */
+            padding: 10px;
+            box-shadow: 5px 5px 5px 1px rgba(0, 255, 255, 0.375) ;
+            
+        }
+        .myinput{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 6px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 3px 1px rgba(0, 255, 255, 0.375) ;
+        }
+        .mybtn{
+            padding: 6px 6px;
+            background: #099cc3;
+            color: rgb(255, 255, 255);
+             font-weight: bold ;
+             border: none;
+             font-size: 13px;
+             width: 48%;
+             box-shadow: 5px 5px 5px 1px black ;
+
+        }
+     </style>
+</head>
+<body>
+    <div class="mycard">
+   <h1> Student Registeration Form</h1>
+      <hr size="5" color="orange">
+      <form> 
+        <label> Full name</label>
+           <input class="myinput" placeholder="Enter your name" type="text"> 
+             <br> 
+             <br>
+        <label>E-mail</label>
+            <input class="myinput" type="email" placeholder="Enter your e-mail">
+             <br>
+             <br>
+        <label>Gender :</label>
+            <input name="age" type="radio"> Male <input name="age" type="radio"> Female
+             <br>
+             <br>
+        <label>Date Of Birth :</label>
+            <input class="myinput" type="date">
+             <br>
+             <br>
+        <label>Course :</label>
+            <select>
+              <option>course</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="BCA">BCA</option>
+            </select>
+            <br>
+            <br>
+        <label>10th Marksheet :</label>
+             <input class="myinput" type="file"> 
+             <br>
+             <br>
+        <label> 12th Marksheet</label>
+            <input class="myinput" type="file">
+            <br>
+            <br>
+        <label>Password</label>
+           <input class="myinput" placeholder="Enter your password" type="password">
+            <br>
+            <br>
+            <div style="display: flex;justify-content: space-between;">
+                <button class="mybtn"> Submit</button>
+                <button class="mybtn"> Submit</button>
+                
+                </div>
+        
+
+      </form>
+      </div>
+</body>
+</html>
